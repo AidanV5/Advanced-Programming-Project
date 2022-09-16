@@ -1,0 +1,24 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.left-bar{
+	-fx-background-color:  #778899;
+}
+
+.center-bar{
+	-fx-background-color:#A9A9A9;
+}
+
+.button{
+	-fx-background-color : #239c9c;
+	-fx-background-radius : 30 0 0 30;
+}
+
+.button:hover{
+	-fx-background-color : #07f7f7;
+	-fx-background-radius : 30 0 0 30;
+}
+
+.button:pressed{
+	-fx-background-color : #239c9c;
+	-fx-background-radius : 30 0 0 30;
+}

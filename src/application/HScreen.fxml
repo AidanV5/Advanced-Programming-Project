@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.House">
+   <children>
+      <ImageView fx:id="Loft" fitHeight="150.0" fitWidth="175.0" layoutX="14.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Loft.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="Colonial" fitHeight="150.0" fitWidth="175.0" layoutX="213.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Colonial.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Modern" fitHeight="107.0" fitWidth="188.0" layoutX="404.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Modern.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="addLoft" layoutX="76.0" layoutY="242.0" mnemonicParsing="false" onAction="#addToLoft" text="Add Loft" textFill="WHITE" />
+      <Button fx:id="addColonial" layoutX="274.0" layoutY="242.0" mnemonicParsing="false" onAction="#addToColonial" text="Add Colonial" textFill="WHITE" />
+      <Button fx:id="addModern" layoutX="465.0" layoutY="242.0" mnemonicParsing="false" onAction="#addToModern" text="Add Modern" textFill="WHITE" />
+      <Label layoutX="261.0" layoutY="26.0" text="Houses" textFill="WHITE">
+         <font>
+            <Font name="MV Boli" size="25.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="39.0" layoutY="328.0" text="Kindly collect The Keys to your Property at the Estate with Receipt...." textFill="WHITE">
+         <font>
+            <Font name="MV Boli" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="70.0" text="Comfortable Loft" textFill="WHITE">
+         <font>
+            <Font name="MV Boli" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="225.0" layoutY="70.0" text="Simple Colonial Home" textFill="WHITE">
+         <font>
+            <Font name="MV Boli" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="442.0" layoutY="70.0" text="Modern Home" textFill="WHITE">
+         <font>
+            <Font name="MV Boli" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
